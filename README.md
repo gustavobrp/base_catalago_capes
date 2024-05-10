@@ -18,7 +18,7 @@ Se houver problemas para baixar a base, bem como dúvidas ou sugestões, entre e
 
 ## Código para baixar as bases no R
 
-Uma observação sobre o código: como durante o processo de download das bases o site da CAPES pode não responder, o código pode ter que ser executado novamente do início. Por essa razão, com ajuda do ChatGPT, eu incluí uma parte para que refizesse o download, mas checando se as bases que já tinham sido baixadas em execuções anteriores. Nada elegante, mas foi o que pensei para o momento ;-)
+Uma observação sobre o código: como durante o processo de download das bases o site da CAPES pode não responder em algum momento, por isso o código pode ter que ser executado novamente do início. Por essa razão, com ajuda do ChatGPT, eu incluí uma parte para que refizesse o download, mas checando se as bases que já tinham sido baixadas em execuções anteriores. Nada elegante, mas foi o que pensei para o momento ;-)
 
 ```r
 library(rvest)
