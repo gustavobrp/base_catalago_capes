@@ -10,7 +10,7 @@ Para baixar essas bases eu utilizei como referência o [código em Python](https
 [13] "titulo"            "nivel"             "data_defesa"       "palavras_chave"    "resumo"            "url_sucupira"
 ````
 
-A única modificação realizada sobre as bases foi o filtro para produções de mestrado e de doutorado acadêmicos, bem como a compatibilização dos nomes das colunas, a partir do código elaborado por Fernando. Do seu código, eu incluí a informação sobre região, estado, nome do orientador e o link da plataforma Sucupira. Portanto, análises a partir dessa base devem considerar trabalhos de limpeza e checagem das informações. A informação link do trabalho na Plataforma Sucupira (url_sucupira) existe apenas a partir de 2012. Nem todos os trabalhos contém a informação sobre orientador(a).
+A única modificação realizada sobre as bases foi o filtro para produções de mestrado e de doutorado acadêmicos, bem como a compatibilização dos nomes das colunas, a partir do código elaborado por Fernando. Do seu código, eu incluí a informação sobre região, estado, nome do orientador e o link da plataforma Sucupira. Portanto, análises a partir dessa base devem considerar trabalhos de limpeza e checagem das informações. A informação do link do trabalho na Plataforma Sucupira (url_sucupira) existe apenas a partir de 2012. Nem todos os trabalhos contém a informação sobre orientador(a).
 
 Se houver problemas para baixar a base, bem como dúvidas ou sugestões, entre em contato.
 
