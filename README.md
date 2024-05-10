@@ -1,6 +1,6 @@
 # Base de dados com informações do Catálago de teses e dissertações da CAPES
 
-Pelo link disponibilizado nessa página é possível baixar uma base de dados com as informações de teses e dissertações disponibilzadas no site de Dados Abertos da CAPES. A base contém informações das produções de mestrado e doutorado do período de **1987 a 2021**. As bases contam apenas com dados dos mestrados e doutorados acadêmicos e contém as seguintes informações: 
+Pelo link disponibilizado nessa página é possível baixar uma base de dados, em formato .csv, com as informações de teses e dissertações publicadas no site [Dados Abertos da CAPES](https://dadosabertos.capes.gov.br/dataset/?groups=catalogo-de-teses-e-dissertacoes-brasil). A base contém informações das produções de mestrado e doutorado do período de **1987 a 2021** e contém as seguintes informações: 
 
 Para baixar essas bases eu utilizei como referência o [código em Python](https://github.com/meirelesff/catalogo_capes) disponibilizado por Fernando Meirelles, do IESP/UERJ, adaptando-o para o R. O código do download está disponibilizado abaixo. Após o download das bases, elas foram reúnidas em uma única base com as seguintes colunas: 
 
@@ -10,7 +10,7 @@ Para baixar essas bases eu utilizei como referência o [código em Python](https
 [13] "titulo"            "nivel"             "data_defesa"       "palavras_chave"    "resumo"            "url_sucupira"
 ````
 
-A única modificação realizada sobre as bases foi o filtro para produções de mestrado e de doutorado, bem como a compatibilização dos nomes das colunas, a partir do código do Fernando. Portanto, análises a partir dessa base devem considerar trabalhos de limpeza e checagem das informações. A informação link do trabalho na Plataforma Sucupira (url_sucupira) existe apenas a partir de 2012.
+A única modificação realizada sobre as bases foi o filtro para produções de mestrado e de doutorado acadêmicos, bem como a compatibilização dos nomes das colunas, a partir do código elaborado por Fernando. Do seu código, eu incluí a informação sobre região, estado, nome do orientador e o link da plataforma Sucupira. Portanto, análises a partir dessa base devem considerar trabalhos de limpeza e checagem das informações. A informação link do trabalho na Plataforma Sucupira (url_sucupira) existe apenas a partir de 2012. Nem todos os trabalhos contém a informação sobre orientador(a).
 
 Se houver problemas para baixar a base, bem como dúvidas ou sugestões, entre em contato.
 
