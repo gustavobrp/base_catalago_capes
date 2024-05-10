@@ -1,6 +1,6 @@
 # Base de dados com informações do Catálago de teses e dissertações da CAPES
 
-Pelo link disponibilizado nessa página é possível baixar uma base de dados, em formato .csv, com as informações de teses e dissertações publicadas no site [Dados Abertos da CAPES](https://dadosabertos.capes.gov.br/dataset/?groups=catalogo-de-teses-e-dissertacoes-brasil). A base contém informações das produções de mestrado e doutorado do período de **1987 a 2021** e contém as seguintes informações: 
+Pelo link disponibilizado nessa página é possível baixar uma base de dados, em formato .csv, com as informações de teses e dissertações publicadas no site [Dados Abertos da CAPES](https://dadosabertos.capes.gov.br/dataset/?groups=catalogo-de-teses-e-dissertacoes-brasil). A base contém informações das produções de mestrado e doutorado do período de **1987 a 2021**.
 
 Para baixar essas bases eu utilizei como referência o [código em Python](https://github.com/meirelesff/catalogo_capes) disponibilizado por Fernando Meirelles, do IESP/UERJ, adaptando-o para o R. O código do download está disponibilizado abaixo. Após o download das bases, elas foram reúnidas em uma única base com as seguintes colunas: 
 
